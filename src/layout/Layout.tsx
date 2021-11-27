@@ -2,6 +2,7 @@
 
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import About from "../pages/About";
 import Home from "../pages/Home";
 import Footer from "./Footer";
 import Title from "./Title";
@@ -14,6 +15,7 @@ function Layout() {
 					<Title />
 					<Routes>
 						<Route path="/" element={<Home />} />
+						<Route path="/about" element={<About />} />
 					</Routes>
 					<Footer />
 				</div>

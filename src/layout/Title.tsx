@@ -2,6 +2,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
+import Button from "../components/Button";
 const Title = () => {
 	return (
 		<div>
@@ -15,6 +16,9 @@ const Title = () => {
 					</Link>
 					<Link to="/contact">
 						<p className="text-blue-700 font-normal mx-5">Contact</p>
+					</Link>
+					<Link to="/add">
+						<Button name="Add" />
 					</Link>
 				</div>
 			</div>
