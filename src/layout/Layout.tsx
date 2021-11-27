@@ -3,9 +3,11 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import About from "../pages/About";
+import AddItenary from "../pages/AddItinerary";
 import Home from "../pages/Home";
 import Footer from "./Footer";
 import Title from "./Title";
+
 
 function Layout() {
 	return (
@@ -16,6 +18,7 @@ function Layout() {
 					<Routes>
 						<Route path="/" element={<Home />} />
 						<Route path="/about" element={<About />} />
+						<Route path="/add" element={<AddItenary />} />
 					</Routes>
 					<Footer />
 				</div>
