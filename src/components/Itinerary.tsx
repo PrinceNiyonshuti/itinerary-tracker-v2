@@ -24,11 +24,46 @@ function Itenarary(props: itineraryProps) {
 		console.log(ItenaryId);
 	};
 
+	// Making Priority Itinerary
+	const handlePriority = (itineraryUpdate: any) => {
+		// const { id, title, date, time, description, priority } = itineraryUpdate;
+		const { id, priority } = itineraryUpdate;
+
+		if (priority === true) {
+			const priority = false;
+			const updateData = { priority };
+			fetch(`http://localhost:8000/itenaryList/` + id, {
+				method: "PATCH",
+				headers: {
+					"Content-Type": "application/json",
+				},
+				body: JSON.stringify(updateData),
+			}).then(() => {
+				console.log("Itinerary Updated to non-priority");
+				window.location.reload();
+			});
+		} else {
+			const priority = true;
+			const updateData = { priority };
+			fetch(`http://localhost:8000/itenaryList/` + id, {
+				method: "PATCH",
+				headers: {
+					"Content-Type": "application/json",
+				},
+				body: JSON.stringify(updateData),
+			}).then(() => {
+				console.log("Itinerary Updated to priority");
+				window.location.reload();
+			});
+		}
+	};
+
 	return (
 		<div>
 			{props.itenaryData.map((itenary) => (
 				<li
 					key={itenary.id}
+					onDoubleClick={() => handlePriority(itenary)}
 					className="flex justify-between items-center bg-gray-200 mt-2 p-2 cursor-pointer transition ">
 					<div className="flex ml-2">
 						<div className="flex flex-col ml-2">
