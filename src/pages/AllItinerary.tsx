@@ -1,15 +1,13 @@
 /** @format */
 
 import React, { useContext } from "react";
-import Itenaries from "../components/Itenaries";
+import Itinerary from "../components/Itinerary";
 
 function AllItinerary() {
-
 	return (
 		<div>
 			<div className="w-full p-4">
-				<ul>
-				</ul>
+				<ul></ul>
 			</div>
 		</div>
 	);
