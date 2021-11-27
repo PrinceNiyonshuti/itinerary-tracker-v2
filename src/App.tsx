@@ -1,11 +1,12 @@
 /** @format */
 
 import React from "react";
+import Layout from "./layout/Layout";
 
 function App() {
 	return (
 		<div className="App">
-			<h2>Hi There</h2>
+			<Layout />
 		</div>
 	);
 }
