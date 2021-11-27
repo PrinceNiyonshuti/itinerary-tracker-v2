@@ -4,9 +4,8 @@
 
 ## Problems
 
-- Adding data to array from another components
-- maintaining the state of the components when you add or delete new data
-- failed to build the project on Netlify due to some rendering and use effect issue [FixedNow]
+- render single api call in reading itinerary details
+- use context api 
 
 ## Findings
 
@@ -37,12 +36,15 @@
 
 before running the project first initialize the project to get tailwindcss modules , using the steps below
 
+
 ### steps to follow installing the project
-
-    npx install
-
-### to run the project
-
+#### Clone the repository run
+    git clone https://github.com/PrinceNiyonshuti/itinerary-tracker-v2.git
+    
+### to install the packages needed for the project run
+    npm install 
+    
+### to start the project run
     npm run prince
 
 # 6. Used resources and documentation
