@@ -1,6 +1,5 @@
 /** @format */
 
-import React from "react";
 import { Link } from "react-router-dom";
 
 type itineraryProps = {
@@ -14,6 +13,17 @@ type itineraryProps = {
 	}[];
 };
 function Itenarary(props: itineraryProps) {
+	// Delete Itenerary
+	const deleteItenary = (ItenaryId: number) => {
+		fetch(`http://localhost:8000/itenaryList/` + ItenaryId, {
+			method: "DELETE",
+		}).then(() => {
+			console.log("Itinerary Deleted");
+			window.location.reload();
+		});
+		console.log(ItenaryId);
+	};
+
 	return (
 		<div>
 			{props.itenaryData.map((itenary) => (
@@ -42,7 +52,11 @@ function Itenarary(props: itineraryProps) {
 						</div>
 					</div>
 					<div className="flex flex-col items-center">
-						<button className="text-red-600 font-bold mr-2">X</button>
+						<button
+							onClick={() => deleteItenary(itenary.id)}
+							className="text-red-600 font-bold mr-2">
+							X
+						</button>
 					</div>
 				</li>
 			))}
