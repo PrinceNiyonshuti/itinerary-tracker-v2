@@ -22,7 +22,7 @@ function Itenarary(props: itineraryProps) {
 					className="flex justify-between items-center bg-gray-200 mt-2 p-2 cursor-pointer transition ">
 					<div className="flex ml-2">
 						<div className="flex flex-col ml-2">
-							<Link to={`/itinerary/${itenary.id}`}>
+							<Link to={`/read/${itenary.id}`}>
 								<h1 className="font-semibold text-xl">{itenary.title}</h1>
 							</Link>
 							<p className="font-normal text-gray-600">

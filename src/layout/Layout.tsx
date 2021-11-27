@@ -6,6 +6,7 @@ import About from "../pages/About";
 import AddItenary from "../pages/AddItinerary";
 import Contact from "../pages/Contact";
 import Home from "../pages/Home";
+import ReadItinerary from "../pages/ReadItinerary";
 import Footer from "./Footer";
 import Title from "./Title";
 
@@ -21,6 +22,7 @@ function Layout() {
 						<Route path="/about" element={<About />} />
 						<Route path="/contact" element={<Contact />} />
 						<Route path="/add" element={<AddItenary />} />
+						<Route path="/read/:id" element={<ReadItinerary />} />
 					</Routes>
 					<Footer />
 				</div>
