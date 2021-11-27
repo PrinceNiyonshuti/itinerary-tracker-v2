@@ -1,8 +1,5 @@
 /** @format */
 
-import React, { useContext } from "react";
-import Itinerary from "../components/Itinerary";
-
 function AllItinerary() {
 	return (
 		<div>
