@@ -26,7 +26,6 @@ function Itenarary(props: itineraryProps) {
 
 	// Making Priority Itinerary
 	const handlePriority = (itineraryUpdate: any) => {
-		// const { id, title, date, time, description, priority } = itineraryUpdate;
 		const { id, priority } = itineraryUpdate;
 
 		if (priority === true) {
@@ -58,13 +57,21 @@ function Itenarary(props: itineraryProps) {
 		}
 	};
 
+	// Priority Class
+	const getPriorityItinerary = (priority: any) => {
+		let classes =
+			"flex justify-between items-center bg-gray-200 mt-2 p-2 cursor-pointer transition ";
+		classes += priority === true ? "border-l-4 border-green-700" : "";
+		return classes;
+	};
+
 	return (
 		<div>
 			{props.itenaryData.map((itenary) => (
 				<li
 					key={itenary.id}
 					onDoubleClick={() => handlePriority(itenary)}
-					className="flex justify-between items-center bg-gray-200 mt-2 p-2 cursor-pointer transition ">
+					className={getPriorityItinerary(itenary.priority)}>
 					<div className="flex ml-2">
 						<div className="flex flex-col ml-2">
 							<Link to={`/read/${itenary.id}`}>
