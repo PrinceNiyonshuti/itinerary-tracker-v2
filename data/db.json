@@ -59,18 +59,11 @@
   ],
   "messageList": [
     {
-      "userNames": "Prince Niyonshuti",
-      "email": "npprince47@gmail.com",
-      "subject": "How can we use some more effect",
-      "description": "Nulla porttitodsr accumsan tincidunt. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec rutrum congue leo eget malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.",
+      "userNames": "Debby ",
+      "email": "debby@gmail.com",
+      "subject": "The tittle and description of the website",
+      "description": "Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.",
       "id": 1
-    },
-    {
-      "userNames": "Contxt Test",
-      "email": "contexapi@gmail.com",
-      "subject": "testing context api data",
-      "description": "render the following we go",
-      "id": 2
     }
   ]
 }
