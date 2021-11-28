@@ -22,7 +22,12 @@ const Message = (props: messageProps) => {
 						<div className="flex flex-col ml-2">
 							<p className="font-semibold text-xl">From : {message.username}</p>
 							<span className="text-sm">@{message.email}</span>
-							<p className=" font-normal text-justify">{message.description}</p>
+							<p className=" font-normal text-justify">
+								{message.description.length > 120
+									? message.description.slice(0, 120) + "..."
+                                    : message.description
+                                }
+							</p>
 						</div>
 					</div>
 				</li>
