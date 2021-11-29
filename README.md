@@ -6,12 +6,12 @@
 
 - render single api call in reading itinerary details
 - use context api 
+- use state without default data 
 
 ## Findings
 
 - React useEffect to handle data before data loads to the DOM and after it loads
 - using Json Server to hold data to be used while fetching them like an API
-- using Reach history to reload or push to a new route using the history prop
 - handling and mastering use of the state and conditional rendering
 - render by limits
 - concatinate script to watch json server and run app into single script
