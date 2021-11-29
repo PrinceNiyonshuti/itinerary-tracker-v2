@@ -30,7 +30,7 @@
 
 [Link To Repository](https://github.com/PrinceNiyonshuti/itinerary-tracker-v2.git)
 
-[Link To Deployed App](https://itinerary-v3.netlify.app/)
+[Link To Deployed App]()
 
 # 5. Documentation of your code where necessary
 
@@ -51,6 +51,7 @@ before running the project first initialize the project to get tailwindcss modul
 
 ## Resources
 
+- Typescript
 - Json Server
 - React Router Dom
 - Concurrently
