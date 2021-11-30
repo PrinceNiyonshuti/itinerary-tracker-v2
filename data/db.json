@@ -57,12 +57,12 @@
       "id": 9
     },
     {
-      "title": "Today Session",
-      "date": "2021-12-01",
+      "title": "Presentation",
+      "date": "2021-12-02",
       "time": "10:30",
-      "description": "testing data",
-      "priority": false,
-      "id": 10
+      "description": "presenting work",
+      "priority": true,
+      "id": 11
     }
   ],
   "messageList": [
@@ -86,6 +86,13 @@
       "subject": "Testing empty state",
       "description": "hi there pal",
       "id": 3
+    },
+    {
+      "username": "admin@gmail.com",
+      "email": "npprince47@gmail.com",
+      "subject": "Can Smart image be used every where there is image upload on the website ?",
+      "description": "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Quisque velit nisi, pretium ut lacinia in, elementum id enim.",
+      "id": 4
     }
   ]
 }
