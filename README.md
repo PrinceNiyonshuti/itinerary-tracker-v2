@@ -4,9 +4,9 @@
 
 ## Problems
 
-- render single api call in reading itinerary details
+- render single api call in reading itinerary details [Fixed]
 - use context api 
-- use state without default data 
+- use state without default data [Fixed]
 
 ## Findings
 
