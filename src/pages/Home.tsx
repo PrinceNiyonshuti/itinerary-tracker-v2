@@ -27,7 +27,7 @@ const Home = () => {
 			id: 1,
 		}
 	];
-	const [itenaryData, setItenaryData] = useState<IState["itenary"]>(itenaryList);
+	const [itenaryData, setItenaryData] = useState<IState["itenary"]>([]);
 
 	// Retrieve all Itenerary with limit of 5
 	useEffect(() => {

@@ -16,20 +16,8 @@ type contactState = {
 };
 
 function Contact() {
-	// Defailt data
 
-	const messageData = [
-		{
-			username: "Debby ",
-			email: "debby@gmail.com",
-			description:
-				"Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.",
-			id: 1,
-		},
-	];
-
-	const [contactData, setContactData] =
-		useState<contactState["message"]>(messageData);
+	const [contactData, setContactData] = useState<contactState["message"]>([]);
 
 	// Contact Form variables
 	const contactForm = useRef<HTMLFormElement>(null);

@@ -55,6 +55,14 @@
       "description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Donec rutrum congue leo eget malesuada. Pellentesque in ipsum id orci porta dapibus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec rutrum congue leo eget malesuada. Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Nulla quis lorem ut libero malesuada feugiat.",
       "priority": true,
       "id": 9
+    },
+    {
+      "title": "Today Session",
+      "date": "2021-12-01",
+      "time": "10:30",
+      "description": "testing data",
+      "priority": false,
+      "id": 10
     }
   ],
   "messageList": [
@@ -71,6 +79,13 @@
       "subject": "Testing contact messages",
       "description": "Hello , im Prince and i wanted to say hi ",
       "id": 2
+    },
+    {
+      "username": "John Doe",
+      "email": "John@gmail.com",
+      "subject": "Testing empty state",
+      "description": "hi there pal",
+      "id": 3
     }
   ]
 }
