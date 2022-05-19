@@ -61,3 +61,8 @@ before running the project first initialize the project to get tailwindcss modul
 ### To Run the app use
 
     1. npm run prince
+
+
+## Feedback and issues
+
+Any issue and feedback from the app don't hesitate to make an issue
